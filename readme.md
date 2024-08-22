@@ -18,3 +18,4 @@ This repo contains notes and practice problems associated with the UBCX course o
     * Learn how and when to use accumulators
 8. Graphs
     * Learn to identify when info naturally forms a graph and write functions operating on such data
+

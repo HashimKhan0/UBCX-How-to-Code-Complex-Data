@@ -25,3 +25,9 @@
 - here there is a self reference in 'ListOfElement ''
 - and the mutual reference is in that in the reference to element in ListOfElement, we return to its own definition. Element is defined by ListOfElement
 - thus we can make an arbitrarily sized arity tree(arbitrarily wide and arbitrarily deep)
+
+
+*Backtracking Search*
+- When we search through an arity tree we start at the terminal node and work our way down the tree until we reach a leaf(no children) and if the desired result is acheived we can stop there
+- if the desired result is not acheived we can work our way back up to a parent node that has children that have not been searched yet
+- this process can be repeated until all nodes are exhausted or the desired result is acheived 
